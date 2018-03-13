@@ -1,2 +1,2 @@
-# kubeCICD
-kubernetes ci-cd
+# hellowhale
+Simple Docker Demo App
