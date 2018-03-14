@@ -4,7 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 echo 'build Passed !!'
-                sh 'kubectl version'
+                sh 'uname -a'
+                sh 'nginx -v'
             }
         }
         stage('Test') {
