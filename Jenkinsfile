@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'build Passed !!'
-                sh 'yum install -y httpd'
+                sh 'kubectl version'
             }
         }
         stage('Test') {
