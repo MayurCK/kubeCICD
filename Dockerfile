@@ -1,4 +1,3 @@
-FROM centos:7
-RUN yum install epel-release -y && yum install nginx -y && systemctl start nginx.service && systemctl enable nginx.service
+FROM centos/nginx-18-centos7
 COPY html /usr/share/nginx/html
 
